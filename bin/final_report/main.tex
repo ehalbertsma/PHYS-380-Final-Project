@@ -1,0 +1,50 @@
+\documentclass{report}
+
+% All package imports live in the ._styles file
+\usepackage{bin/._styles}
+% All custom math commands live in the ._math file
+\usepackage{bin/._math}
+
+\begin{document}
+% Insert the title page here
+\include{bin/._titlepage}
+\pagenumbering{roman}
+
+% Displays a list of \todo comments
+%remove this before submission
+%\listoftodos
+
+% Table of contents
+%\setcounter{tocdepth}{1}
+\tableofcontents
+%\listoftables
+%\lstlistoflistings
+
+\pagebreak
+\pagenumbering{arabic}
+% PARAGRAPH OPTIONS
+\setlength{\parindent}{0em}
+\setlength{\parskip}{.5em}
+
+% Import the files
+%\subfile{0_Abstract}
+
+%set multicolumn environment
+\subfile{1_abstract}
+\subfile{2_intro}
+\subfile{3_theory}
+\subfile{4_compmodel}
+\subfile{5_conclusion}
+\subfile{6_figures}
+
+
+% Bibliography
+\nocite{*} % print entire bibliography
+%\listoffigures
+%\listoftables
+%\list of equations
+%\list of code snippets
+\bibliographystyle{ieeetr}
+\bibliography{bin/ref}
+
+\end{document}

@@ -1,0 +1,66 @@
+%\chapter{}
+\section{Topic}
+As part of our AMATH 361 Continuum Mechanics course, we have decided to explore the subject of surface elastic waves and their relationship to earthquakes. David has recently worked at Natural Resources Canada in the Canadian Hazard Information Systems group, where a presentation was given by someone pursuing their Master's degree. This presentation covered the topics of modelling earthquakes in Canadian soil with the goal of being able to alert Canadians in any given region via SMS before the occurrence of an imminent earthquake. David found the effects of differing soil types within Canada on earthquake propagation to be very interesting and wanted to further ivestigate the topic. This project topic aligned with Emrys' interest in geography, geology, as well as in computational modeling, and so we decided to move forward with this topic.\\\\
+A surface elastic wave is a wave travelling on the surface of a material without causing permanent changes. There are several factors affecting the propagation of these waves and the majority of them stem from physical material properties. A prime example of surface elastic waves are earthquakes, with their propagation being majorly dictated by ground composition.
+
+\section{Project Scope}
+Table \ref{tab:responsibilities} outlines the planned allocation of project responsibilities between the group members. Note that this is not set in stone: the checkmarks indicate the final owner of each task, but generally the group will be working collaboratively on all tasks. This breakdown aims to split the responsibilities evenly while allowing each member to contribute according to their strengths and learning goals.
+
+The group members will meet biweekly to ensure continued development of the project throughout the remainder of the term.
+
+\begin{table}[H]
+    \centering
+    \caption{Planned breakdown of project responsibilities}
+    \begin{tabular}{p{10cm}|ll|l}
+    \textbf{Task} & \textbf{David} & \textbf{Emrys} & \textbf{Status} \\\hline
+    Simple example (water) simulation development & $\checkmark$ & & Complete\\
+    Resource compilation and literature review &  & $\checkmark$ & In progress\\
+    Identification of simulation problem & $\checkmark$ & & In progress\\ 
+    Identification of computational model and key equations & $\checkmark$ & & In progress \\
+    Implementation of the chosen computational model in Python & $\checkmark$ & $\checkmark$ & Undeveloped\\
+    Using model to obtain results, plotting, obtaining data, and documenting results & & $\checkmark$ & Undeveloped\\
+    Documentation in final report & $\checkmark$ & $\checkmark$ & Undeveloped\\
+    Maintenance of \LaTeX{} document & & $\checkmark$ & Ongoing\\
+    Maintenance of Github repository & $\checkmark$ & & Ongoing\\
+    \end{tabular}
+    \label{tab:responsibilities}
+\end{table}
+
+A proposed document outline is shown below for the Final Report submission.
+\begin{tcolorbox}[width=4in,
+                  boxsep=0pt,
+                  left=0pt,
+                  right=0pt,
+                  top=2pt,
+                  arc=0pt,
+                  boxrule=1pt,
+                  colback=white
+                  ]%%
+\begin{enumerate}
+    \item Abstract
+    \item Introduction
+    \item Theory
+    \begin{enumerate}[1.]
+        \item Background information
+        \item Continuum mechanics
+    \end{enumerate}
+    \item Computational Model
+    \begin{enumerate}[1.]
+        \item Description of model
+        \item Implementation
+        \item Results obtained
+    \end{enumerate}
+    \item Conclusion
+\end{enumerate}
+\end{tcolorbox}
+
+\section{Computational Model}
+The end goal of this project would be to model a surface elastic wave travelling through two mediums with differing physical properties. The interface between those two mediums would be planar. In order to achieve this, we plan to go from simple models and gradually develop this more complicated model. We have started by developing a few simulations with line waves in deep water and we plan to go towards "waterbergs" simulation, then move towards surface waves in solid materials and finally surface waves in interfacing solid materials.
+
+\section{Resources}
+We have looked through a few resources online and have identified a few that will be useful for our project. These resources can be found in the References section at the bottom of this document.
+
+\section{Workflow Development}
+In order to facilitate the project development, we have spent some time on preparing tools to collaborate together efficiently. We created a Github repsitory with a standard file structure that will serve to categorize our files appropriately. Overleaf will be used as a collaborative platform to edit the \LaTeX{} report in real-time. The Overleaf document is linked to our Github repository as well as Jupyter notebooks in order to be able to collaborate effectively on typing our report as well as coding.
+
+The codebase for both the \LaTeX{} and the Python simulations can be accessed through the \href{https://github.com/dreneuw/AMATH361-Project}{Github repository}.
