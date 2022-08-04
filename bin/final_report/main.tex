@@ -6,6 +6,7 @@
 \usepackage{bin/._math}
 
 \begin{document}
+
 % Insert the title page here
 \include{bin/._titlepage}
 \pagenumbering{roman}
@@ -16,6 +17,7 @@
 
 % Table of contents
 %\setcounter{tocdepth}{1}
+\subfile{1_abstract}
 \tableofcontents
 %\listoftables
 %\lstlistoflistings
@@ -30,21 +32,25 @@
 %\subfile{0_Abstract}
 
 %set multicolumn environment
-\subfile{1_abstract}
 \subfile{2_intro}
-\subfile{3_theory}
-\subfile{4_compmodel}
-\subfile{5_conclusion}
-\subfile{6_figures}
+\subfile{3_perf_metrics}
+%\subfile{4_beet_juice}
+\subfile{5_effects}
+%\subfile{6_discussion}
+\subfile{7_conclusion}
 
 
 % Bibliography
-\nocite{*} % print entire bibliography
-%\listoffigures
-%\listoftables
+%\nocite{*} % print entire bibliography
+\listoffigures
+\listoftables
 %\list of equations
 %\list of code snippets
 \bibliographystyle{ieeetr}
 \bibliography{bin/ref}
+
+% changelog
+%\include{bin/notes/changelog}
+
 
 \end{document}

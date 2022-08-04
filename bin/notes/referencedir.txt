@@ -1,0 +1,36 @@
+ELITE
+\cite{balsalobre2018effects}
+\cite{pawlak2019beetroot}
+\cite{boorsma2013effect}
+
+RECREATIONAL
+\cite{de2019effect}
+    no difference in 10k tt, mhr, rpe, glycogen, lactate max
+\cite{casado2021influence}
+\cite{shannon2017dietary}
+    10k tt no difference
+    1500m tt some difference
+\cite{lansley2011dietary}
+    oxygen cost and time to exhaustion improved. not systolic bp
+\cite{murphy2012whole}
+
+
+BOTH
+\cite{dominguez2017effects}
+\cite{carriker2016nitrate}
+
+
+
+
+
+
+CITATIONS TO ADD
+# ---------------
+https://shop.beetitcanada.ca/collections/frontpage/products/beet-it-sport-1-case-15-x-70-ml
+# ---------------
+https://www.ptdirect.com/training-delivery/client-assessment/harvard-step-test-a-predictive-test-of-vo2max
+# ---------------
+https://www.sciencedaily.com/releases/2009/08/090806141520.htm
+# --------------
+https://link.springer.com/article/10.1007/s11332-019-00585-7
+% Time to exhaustion

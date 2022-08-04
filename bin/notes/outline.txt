@@ -1,0 +1,41 @@
+
+abstract
+
+
+intro
+	distance running
+		types and competitions
+		what affects performance
+		elite vs non elite runners
+	history and popularity of beet juice
+		first surge in popularity
+		running pop culture
+		products on the market
+performance metrics in distance running
+	measuring performance
+		vo2max
+		gas exchange
+		lt1, lt2, vt1, vt2
+		RHR
+		competition performance
+	performance enhancements
+		improving oxygen uptake
+		doping?
+beet juice
+	mechanism of beet juice
+		role of nitrates/NO
+		mechanism
+effects of beet juice
+	non elites
+		category i
+		category i
+		category i
+	elites
+		category i
+		category i
+		category i
+	comparison of results
+discussion
+	explanation
+	future research
+conclusion
